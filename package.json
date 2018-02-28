@@ -1,0 +1,37 @@
+{
+  "name": "puppeteer_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "config": {
+    "ELE_MOBILE": "17722854997",
+    "ELE_PASSWORD": "229407",
+    "MEITUAN_MOBILE": "13800000000",
+    "MEITUAN_PASSWORD": "123456",
+    "WORK_ADDR": "星海名城",
+    "HOME_ADDR": "星海名城",
+    "PRICE_MIN": 10,
+    "PRICE_MAX": 25,
+    "FREIGHT_MAX": 6
+  },
+  "author": "gh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "blueimp-md5": "^2.10.0",
+    "puppeteer": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-dp": "^1.0.10",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
